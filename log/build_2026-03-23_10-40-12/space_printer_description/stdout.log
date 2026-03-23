@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/space_twin_ws/build/space_printer_description
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/urdf
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/urdf/space_printer.xml
+-- Installing: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/urdf/space_printer.urdf
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/launch
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/launch/display.launch.py
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/ament_index/resource_index/package_run_dependencies/space_printer_description
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/ament_index/resource_index/parent_prefix_path/space_printer_description
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/environment/path.sh
+-- Installing: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/environment/path.dsv
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/local_setup.bash
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/local_setup.sh
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/local_setup.zsh
+-- Installing: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/local_setup.dsv
+-- Installing: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/package.dsv
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/ament_index/resource_index/packages/space_printer_description
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/cmake/space_printer_descriptionConfig.cmake
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/cmake/space_printer_descriptionConfig-version.cmake
+-- Up-to-date: /home/ubuntu/space_twin_ws/install/space_printer_description/share/space_printer_description/package.xml

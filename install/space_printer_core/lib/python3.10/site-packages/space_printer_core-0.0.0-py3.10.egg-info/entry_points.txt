@@ -1,0 +1,3 @@
+[console_scripts]
+gcode_parser = space_printer_core.gcode_parser_node:main
+
