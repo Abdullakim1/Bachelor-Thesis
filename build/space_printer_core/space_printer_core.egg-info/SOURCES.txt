@@ -11,6 +11,8 @@ setup.py
 resource/space_printer_core
 space_printer_core/__init__.py
 space_printer_core/gcode_parser_node.py
+space_printer_core/network_simulator_node.py
+space_printer_core/telemetry_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

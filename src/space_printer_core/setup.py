@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'gcode_parser = space_printer_core.gcode_parser_node:main'
+            'gcode_parser = space_printer_core.gcode_parser_node:main',
+	    'telemetry = space_printer_core.telemetry_node:main',
+	    'network_sim = space_printer_core.network_simulator_node:main'
             ],
     },
 )

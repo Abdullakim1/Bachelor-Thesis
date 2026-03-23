@@ -109,7 +109,7 @@
   <link name="extruder_nozzle">
     <visual>
       <origin xyz="0 0 0.025" rpy="0 0 0"/>
-      <geometry><cone radius="0.02" length="0.05"/></geometry>
+      <geometry><cylinder radius="0.05" length="0.1"/></geometry>
       <material name="white"/>
     </visual>
   </link>
