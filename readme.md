@@ -33,3 +33,7 @@ source /opt/ros/humble/setup.bash
 
 # 2. Run the teleop keyboard node
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+I need to add u squared-net model for saliency for vision
+Autonomous navigation
+6G somehow must be part of this project first as implementation like sensing and then I need to work on theoretical part
