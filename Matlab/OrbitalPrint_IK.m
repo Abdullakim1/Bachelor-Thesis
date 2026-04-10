@@ -6,9 +6,13 @@ disp('1. Initializing Earth-to-Orbit 6G Link...');
 robot = importrobot('space_printer.urdf');
 robot.DataFormat = 'row';
 node = ros2node("/matlab_earth_hub");
-pub = ros2publisher(node, "/joint_states", "sensor_msgs/JointState");
+% Switch network link to the physical motor controllers in Gazebo
+pub = ros2publisher(node, "/joint_group_position_controller/commands", "std_msgs/Float64MultiArray");
 msg = ros2message(pub);
-msg.name = {'joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6'};
+% --- 6G DIGITAL TWIN SETUP ---
+% Initialize subscriber to harvest physical sensor data from Gazebo
+sub = ros2subscriber(node, "/joint_states", "sensor_msgs/JointState");
+disp('6G Return Link Established. Ready for Telemetry.');
 
 ik = inverseKinematics('RigidBodyTree', robot);
 weights = [1 1 1 1 1 1]; 
@@ -34,9 +38,38 @@ for i = 1:length(t)
     [configSol, ~] = ik('extruder_nozzle', targetPose, weights, initialGuess);
     initialGuess = configSol; 
     
-    msg.position = configSol;
-    msg.header.stamp = ros2time(node, 'now');
-    send(pub, msg); % Transmit to ROS 2 (Orbit)
+    % Stream electrical commands to the motor array
+    msg.data = configSol; 
+    send(pub, msg); % Transmit to physical Gazebo motors
+    % --- 6G JCAS SENSING LOGIC ---
+    % 1. Allow the physics engine to react to the electrical command
+    pause(0.1); 
+
+    % 2. Harvest actual physical sensor data from the Gazebo robot
+    try
+        sensor_data = receive(sub, 1); % Wait up to 1s for a message
+        
+        % Extract the actual physical angles (Gazebo sorts these alphabetically)
+        actual_angles = double(sensor_data.position(1:6)); 
+        ideal_angles = double(configSol(:)); % Ensure column vector format
+        
+        % 3. The Digital Twin Math: Calculate physical deviation (Norm Error)
+        % This measures how much the zero-gravity inertia dragged the robot off course
+        structural_deviation = norm(ideal_angles - actual_angles);
+        
+        % 4. Threshold Detection for your Thesis
+        tolerance_limit = 0.05; % Define your strict millimeter/radian tolerance
+        
+        if structural_deviation > tolerance_limit
+            fprintf('[ALERT] 6G JCAS Detected Structural Micro-fracture/Deviation! Error: %.4f\n', structural_deviation);
+            % Optional: Add a plot command here to mark a RED dot on your 3D graph
+        else
+            fprintf('[OK] 6G Telemetry Nominal. Tracking Error: %.4f\n', structural_deviation);
+        end
+        
+    catch
+        disp('[WARNING] 6G Signal Dropped: Could not read Gazebo sensor data.');
+    end
     
     % 2. SENSING (JCAS): Simulate THz Radar Return
     % We simulate the 6G signal bouncing off the print with slight quantum noise
