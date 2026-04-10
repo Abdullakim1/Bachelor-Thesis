@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/space_twin_ws/src/space_printer_description
+# Install script for directory: /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/space_twin_ws/install/space_printer_description")
+  set(CMAKE_INSTALL_PREFIX "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,17 +44,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE DIRECTORY FILES
-    "/home/ubuntu/space_twin_ws/src/space_printer_description/urdf"
-    "/home/ubuntu/space_twin_ws/src/space_printer_description/launch"
+    "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description/urdf"
+    "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description/launch"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/space_printer_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/space_printer_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/space_printer_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/space_printer_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,7 +62,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description/environment" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description/environment" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,42 +70,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description/environment" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description/environment" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_index/share/ament_index/resource_index/packages/space_printer_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_index/share/ament_index/resource_index/packages/space_printer_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description/cmake" TYPE FILE FILES
-    "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_core/space_printer_descriptionConfig.cmake"
-    "/home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_core/space_printer_descriptionConfig-version.cmake"
+    "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_core/space_printer_descriptionConfig.cmake"
+    "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_core/space_printer_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/home/ubuntu/space_twin_ws/src/space_printer_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/space_printer_description" TYPE FILE FILES "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -116,5 +116,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/space_twin_ws/build/space_printer_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

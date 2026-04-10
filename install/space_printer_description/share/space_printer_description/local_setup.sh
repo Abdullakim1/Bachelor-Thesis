@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/ubuntu/space_twin_ws/install/space_printer_description"}
+: ${AMENT_CURRENT_PREFIX:="/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_description"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

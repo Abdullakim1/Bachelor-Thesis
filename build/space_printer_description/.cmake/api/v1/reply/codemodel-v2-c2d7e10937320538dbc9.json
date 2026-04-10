@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b1926e18dd03af83e812.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "space_printer_description",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "space_printer_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-space_printer_description_uninstall-8c24d9ccbe136af01eb8.json",
+					"name" : "space_printer_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9d83891ce5002082a140.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description",
+		"source" : "/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

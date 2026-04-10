@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/space_twin_ws/src/space_printer_description
+CMAKE_SOURCE_DIR = /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/space_twin_ws/build/space_printer_description
+CMAKE_BINARY_DIR = /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description
 
 # Utility rule file for space_printer_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/space_printer_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/space_printer_description_uninstall.dir/progress.make
 
 CMakeFiles/space_printer_description_uninstall:
-	/usr/bin/cmake -P /home/ubuntu/space_twin_ws/build/space_printer_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 space_printer_description_uninstall: CMakeFiles/space_printer_description_uninstall
 space_printer_description_uninstall: CMakeFiles/space_printer_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/space_printer_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/space_printer_description_uninstall.dir/clean
 
 CMakeFiles/space_printer_description_uninstall.dir/depend:
-	cd /home/ubuntu/space_twin_ws/build/space_printer_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/space_twin_ws/src/space_printer_description /home/ubuntu/space_twin_ws/src/space_printer_description /home/ubuntu/space_twin_ws/build/space_printer_description /home/ubuntu/space_twin_ws/build/space_printer_description /home/ubuntu/space_twin_ws/build/space_printer_description/CMakeFiles/space_printer_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_description /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_description/CMakeFiles/space_printer_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/space_printer_description_uninstall.dir/depend
 

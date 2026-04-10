@@ -52,7 +52,7 @@ _colcon_prepend_unique_value() {
 # since a plain shell script can't determine its own path when being sourced
 # either use the provided COLCON_CURRENT_PREFIX
 # or fall back to the build time prefix (if it exists)
-_colcon_package_sh_COLCON_CURRENT_PREFIX="/home/ubuntu/space_twin_ws/install/space_printer_description"
+_colcon_package_sh_COLCON_CURRENT_PREFIX="/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_description"
 if [ -z "$COLCON_CURRENT_PREFIX" ]; then
   if [ ! -d "$_colcon_package_sh_COLCON_CURRENT_PREFIX" ]; then
     echo "The build time path \"$_colcon_package_sh_COLCON_CURRENT_PREFIX\" doesn't exist. Either source a script for a different shell or set the environment variable \"COLCON_CURRENT_PREFIX\" explicitly." 1>&2

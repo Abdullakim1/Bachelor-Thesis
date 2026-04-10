@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="turtlebot_miner">
+
+  <xacro:include filename="$(find turtlebot3_description)/urdf/turtlebot3_waffle.urdf" />
+
+  <xacro:include filename="$(find space_printer_description)/urdf/space_printer.urdf" />
+
+  <joint name="arm_mount_joint" type="fixed">
+    <parent link="base_link"/>      <child link="arm_base_link"/>   <origin xyz="-0.05 0 0.1" rpy="0 0 0"/> 
+  </joint>
+<gazebo>
+    <plugin name="turtlebot3_diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <namespace></namespace>
+      </ros>
+      <update_rate>30</update_rate>
+
+      <left_joint>wheel_left_joint</left_joint>
+      <right_joint>wheel_right_joint</right_joint>
+
+      <wheel_separation>0.287</wheel_separation>
+      <wheel_diameter>0.066</wheel_diameter>
+
+      <max_wheel_torque>20</max_wheel_torque>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+
+      <command_topic>cmd_vel</command_topic>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>false</publish_wheel_tf>
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
+    </plugin>
+  </gazebo>
+
+</robot>
