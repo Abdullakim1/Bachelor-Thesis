@@ -1,0 +1,19 @@
+% 1. Create a publisher for the Position Controller
+pos_pub = ros2publisher(matlab_node, "/joint_group_position_controller/commands", "std_msgs/Float64MultiArray");
+
+disp('Connecting to Gazebo... Please wait 3 seconds.');
+pause(3); 
+
+% 2. Create the message
+pos_msg = ros2message(pos_pub);
+
+% 3. Define the target positions as a 1x6 row vector of doubles
+target_positions = double([0.0, 0.0, 0.0, 0.0, 0.0, 0.5]);
+
+% 4. Assign the data. 
+pos_msg.data = target_positions;
+
+% 5. Send the command to Gazebo
+send(pos_pub, pos_msg);
+
+disp('Direct position command sent to Gazebo!');

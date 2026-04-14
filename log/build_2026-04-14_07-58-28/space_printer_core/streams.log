@@ -1,0 +1,23 @@
+[0.716s] Invoking command in '/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_core': PYTHONPATH=/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/space_printer_core build --build-base /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build install --record /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/install.log --single-version-externally-managed install_data
+[0.982s] running egg_info
+[0.983s] writing ../../build/space_printer_core/space_printer_core.egg-info/PKG-INFO
+[0.983s] writing dependency_links to ../../build/space_printer_core/space_printer_core.egg-info/dependency_links.txt
+[0.983s] writing entry points to ../../build/space_printer_core/space_printer_core.egg-info/entry_points.txt
+[0.983s] writing requirements to ../../build/space_printer_core/space_printer_core.egg-info/requires.txt
+[0.984s] writing top-level names to ../../build/space_printer_core/space_printer_core.egg-info/top_level.txt
+[0.985s] reading manifest file '../../build/space_printer_core/space_printer_core.egg-info/SOURCES.txt'
+[0.987s] writing manifest file '../../build/space_printer_core/space_printer_core.egg-info/SOURCES.txt'
+[0.987s] running build
+[0.987s] running build_py
+[0.987s] running install
+[0.988s] running install_lib
+[0.989s] running install_data
+[0.989s] running install_egg_info
+[0.992s] removing '/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core-0.0.0-py3.10.egg-info' (and everything under it)
+[0.992s] Copying ../../build/space_printer_core/space_printer_core.egg-info to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core-0.0.0-py3.10.egg-info
+[0.993s] running install_scripts
+[1.016s] Installing gcode_parser script to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/space_printer_core
+[1.016s] Installing network_sim script to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/space_printer_core
+[1.016s] Installing telemetry script to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/space_printer_core
+[1.017s] writing list of installed files to '/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/install.log'
+[1.055s] Invoked command in '/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/src/space_printer_core' returned '0': PYTHONPATH=/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/space_printer_core build --build-base /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build install --record /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/install.log --single-version-externally-managed install_data

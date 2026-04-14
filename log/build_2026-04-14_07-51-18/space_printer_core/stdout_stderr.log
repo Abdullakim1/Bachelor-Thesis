@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/space_printer_core/space_printer_core.egg-info
+writing ../../build/space_printer_core/space_printer_core.egg-info/PKG-INFO
+writing dependency_links to ../../build/space_printer_core/space_printer_core.egg-info/dependency_links.txt
+writing entry points to ../../build/space_printer_core/space_printer_core.egg-info/entry_points.txt
+writing requirements to ../../build/space_printer_core/space_printer_core.egg-info/requires.txt
+writing top-level names to ../../build/space_printer_core/space_printer_core.egg-info/top_level.txt
+writing manifest file '../../build/space_printer_core/space_printer_core.egg-info/SOURCES.txt'
+reading manifest file '../../build/space_printer_core/space_printer_core.egg-info/SOURCES.txt'
+writing manifest file '../../build/space_printer_core/space_printer_core.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core
+copying space_printer_core/__init__.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core
+copying space_printer_core/gcode_parser_node.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core
+copying space_printer_core/network_simulator_node.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core
+copying space_printer_core/telemetry_node.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core
+running install
+running install_lib
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core
+copying /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core/__init__.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core
+copying /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core/gcode_parser_node.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core
+copying /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core/network_simulator_node.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core
+copying /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/build/lib/space_printer_core/telemetry_node.py -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core
+byte-compiling /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core/__init__.py to __init__.cpython-310.pyc
+byte-compiling /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core/gcode_parser_node.py to gcode_parser_node.cpython-310.pyc
+byte-compiling /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core/network_simulator_node.py to network_simulator_node.cpython-310.pyc
+byte-compiling /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core/telemetry_node.py to telemetry_node.cpython-310.pyc
+running install_data
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/share/ament_index
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/share/ament_index/resource_index
+creating /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/share/ament_index/resource_index/packages
+copying resource/space_printer_core -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/share/ament_index/resource_index/packages
+copying package.xml -> /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/share/space_printer_core
+running install_egg_info
+Copying ../../build/space_printer_core/space_printer_core.egg-info to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/python3.10/site-packages/space_printer_core-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gcode_parser script to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/space_printer_core
+Installing network_sim script to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/space_printer_core
+Installing telemetry script to /media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/install/space_printer_core/lib/space_printer_core
+writing list of installed files to '/media/kim/f1277ab9-8a55-4744-9d16-761b793c0e9e/home/kim/Bachelor_Thesis/Bachelor-Thesis/build/space_printer_core/install.log'
